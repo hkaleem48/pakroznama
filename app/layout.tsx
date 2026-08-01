@@ -34,6 +34,9 @@ export const metadata: Metadata = {
   },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
   alternates: { canonical: SITE_URL },
+  verification: {
+    google: "1blLQiIOMMcdwHKlYkmjTHU_Gzirv9yXl2KC1vRZzQA",
+  },
 };
 
 const CATEGORIES = [
